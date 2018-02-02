@@ -32,3 +32,14 @@ int main()
 
 	return 0;
 }
+/*
+void strdel(char *ct, char c){   // with fields option
+        int i,j=0;
+        while ( ct[i] !='\0'){
+                ct[i] =ct[j];
+                if(ct[i]!=c && ct[i]!='\0')
+                ++i;
+                ++j;
+        }
+}
+*/
